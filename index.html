@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ps">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الهجرت اعظمي سیاحتي او زیارتي شرکت</title>
+<style>
+body {font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; background:#f8f9fa; color:#333; scroll-behavior:smooth;}
+header {position:relative; height:80vh; color:white; text-align:center; display:flex; flex-direction:column; justify-content:center; background-size:cover; background-position:center; overflow:hidden;}
+header h1 {margin:0; font-size:40px; text-shadow:2px 2px 4px rgba(0,0,0,0.5);}
+header p {font-size:20px; margin:10px 0 0; text-shadow:1px 1px 3px rgba(0,0,0,0.5);}
+.slider {position:absolute; width:100%; height:100%; top:0; left:0;}
+.slide {position:absolute; width:100%; height:100%; background-size:cover; background-position:center; opacity:0; transition:opacity 1s;}
+.slide.active {opacity:1;}
+nav {background-color:#0066cc;}
+nav ul {list-style:none; margin:0; padding:0; display:flex; justify-content:center;}
+nav ul li {margin:0 15px;}
+nav ul li a {color:white; text-decoration:none; font-weight:bold; padding:15px 0; display:block; transition:0.3s;}
+nav ul li a:hover {background-color:#004080;}
+section {padding:60px 20px; max-width:1000px; margin:auto;}
+section h2 {text-align:center; color:#004080; margin-bottom:40px;}
+.services, .gallery {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px;}
+.service, .gallery img {background:white; padding:20px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); text-align:center; transition: transform 0.3s, box-shadow 0.3s, opacity 0.6s;}
+.service:hover, .gallery img:hover {transform:translateY(-10px); box-shadow:0 10px 20px rgba(0,0,0,0.2);}
+.service {opacity:0; transform:translateY(30px);}
+.service button {margin-top:10px; padding:10px 15px; background:#004080; color:white; border:none; border-radius:5px; cursor:pointer; transition:0.3s;}
+.service button:hover {background:#0066cc;}
+.contact form {display:flex; flex-direction:column; gap:15px; max-width:500px; margin:auto;}
+.contact input, .contact textarea {padding:12px; border-radius:5px; border:1px solid #ccc; width:100%;}
+.contact button {padding:12px; background-color:#004080; color:white; border:none; border-radius:5px; cursor:pointer; font-size:16px; transition:0.3s;}
+.contact button:hover {background-color:#0066cc; transform:scale(1.05);}
+footer {background-color:#004080; color:white; text-align:center; padding:20px 0;}
+footer a {color:white; margin:0 10px; text-decoration:none; font-size:16px; transition:0.3s;}
+footer a:hover {color:#00bfff;}
+#lightbox {position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); display:none; justify-content:center; align-items:center; z-index:999;}
+#lightbox img {max-width:90%; max-height:80%; border-radius:10px;}
+@media (max-width:768px){header h1{font-size:28px;} header p{font-size:16px;}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>الهجرت اعظمي سیاحتي او زیارتي شرکت</h1>
+<p>هو ساینه له موږ سره تجربه کړی</p>
+<div class="slider">
+    <div class="slide active" style="background-image:url('https://via.placeholder.com/1200x800?text=سفر+1');"></div>
+    <div class="slide" style="background-image:url('https://via.placeholder.com/1200x800?text=سفر+2');"></div>
+    <div class="slide" style="background-image:url('https://via.placeholder.com/1200x800?text=سفر+3');"></div>
+</div>
+</header>
+
+<nav>
+<ul>
+<li><a href="#home">کور</a></li>
+<li><a href="#services">خدمتونه</a></li>
+<li><a href="#gallery">ګالري</a></li>
+<li><a href="#contact">اړیکه</a></li>
+</ul>
+</nav>
+
+<section id="home">
+<h2>ښه راغلاست!</h2>
+<p>الهجرت اعظمي سیاحتي او زیارتي شرکت ستاسو د سیاحت او زیارت تجربه لا ځانګړې کوي. زموږ سره خپلې یادګاري سفرونه پیل کړئ!</p>
+</section>
+
+<section id="services">
+<h2>زموږ خدمتونه</h2>
+<div class="services">
+<div class="service">
+<h3>سیاحتي سفرونه</h3>
+<p>په مختلفو ښکلو ځایونو کې د آرام او یادګاري سفرونو پلان.</p>
+<button onclick="alert('تفصیل: د سیاحتي سفرونو بشپړ پلان او لارښود')">نور وګوره</button>
+</div>
+<div class="service">
+<h3>زیارتي سفرونه</h3>
+<p>مقدسه ځایونو ته د زیارت ترتیب او اسانتیاوې.</p>
+<button onclick="alert('تفصیل: د زیارتي سفرونو ترتیب او اسانتیاوې')">نور وګوره</button>
+</div>
+<div class="service">
+<h3>ټرانسپورټ</h3>
+<p>آرام او خوندي ټرانسپورټي خدمتونه د سفر پر مهال.</p>
+<button onclick="alert('تفصیل: د سفر پر مهال د ټرانسپورټ خدمتونه')">نور وګوره</button>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>ګالري</h2>
+<div class="gallery">
+<img src="https://via.placeholder.com/300x200?text=سفر+1" alt="سفر عکس">
+<img src="https://via.placeholder.com/300x200?text=سفر+2" alt="سفر عکس">
+<img src="https://via.placeholder.com/300x200?text=سفر+3" alt="سفر عکس">
+<img src="https://via.placeholder.com/300x200?text=سفر+4" alt="سفر عکس">
+</div>
+</section>
+
+<section id="contact">
+<h2>اړیکه</h2>
+<div class="contact">
+<form>
+<input type="text" placeholder="ستاسو نوم" required>
+<input type="email" placeholder="بریښنالیک" required>
+<textarea rows="5" placeholder="پیغام" required></textarea>
+<button type="submit">لیږل</button>
+</form>
+</div>
+</section>
+
+<footer>
+<p>© 2025 الهجرت اعظمي سیاحتي او زیارتي شرکت</p>
+<div>
+<a href="#">مقررات</a> | <a href="#">پالیسي</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a>
+</div>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox"><img src="" alt="Lightbox"></div>
+
+<script>
+// Service fade in on scroll
+const services = document.querySelectorAll('.service');
+const observer = new IntersectionObserver(entries => {
+entries.forEach(entry => {
+    if(entry.isIntersecting){
+        entry.target.style.opacity = 1;
+        entry.target.style.transform = 'translateY(0)';
+    }
+});
+},{threshold:0.1});
+services.forEach(service => observer.observe(service));
+
+// Lightbox for gallery
+const lightbox = document.getElementById('lightbox');
+const galleryImages = document.querySelectorAll('.gallery img');
+galleryImages.forEach(img => {
+img.addEventListener('click', () => {
+    lightbox.style.display = 'flex';
+    lightbox.querySelector('img').src = img.src;
+});
+});
+lightbox.addEventListener('click', () => lightbox.style.display = 'none');
+
+// Slider
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+setInterval(() => {
+slides[currentSlide].classList.remove('active');
+currentSlide = (currentSlide+1)%slides.length;
+slides[currentSlide].classList.add('active');
+}, 5000);
+</script>
+
+</body>
+</html>
